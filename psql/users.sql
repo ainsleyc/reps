@@ -30,3 +30,25 @@ INSERT INTO users VALUES
   (DEFAULT, 'Derp', 'Derp', 2, null, '444 Other Street', 'AZ'),
   (DEFAULT, 'Jennifer', 'Ta', 31, '608 El Mercado Ave', 'Monterey Park', 'CA');
 
+INSERT INTO friends VALUES
+  (DEFAULT, 
+    (SELECT id from users WHERE first='Ainsley'),
+    (SELECT id from users WHERE first='Jennifer')
+  ),
+  (DEFAULT, 
+    (SELECT id from users WHERE first='Jennifer'),
+    (SELECT id from users WHERE first='Ainsley')
+  ),
+  (DEFAULT, 
+    (SELECT id from users WHERE first='Ainsley'),
+    (SELECT id from users WHERE first='Dude')
+  ),
+  (DEFAULT, 
+    (SELECT id from users WHERE first='Ainsley'),
+    (SELECT id from users WHERE first='Blah')
+  ),
+  (DEFAULT, 
+    (SELECT id from users WHERE first='Jennifer'),
+    (SELECT id from users WHERE first='Dude')
+  );
+
