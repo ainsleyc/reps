@@ -44,6 +44,10 @@ INSERT INTO friends VALUES
     (SELECT id from users WHERE first='Dude')
   ),
   (DEFAULT, 
+    (SELECT id from users WHERE first='Dude'),
+    (SELECT id from users WHERE first='Ainsley')
+  ),
+  (DEFAULT, 
     (SELECT id from users WHERE first='Ainsley'),
     (SELECT id from users WHERE first='Blah')
   ),
