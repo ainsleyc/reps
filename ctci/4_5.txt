@@ -1,0 +1,16 @@
+
+In Order Successor
+
+function(node) {}
+
+Attempt to do an in-order traversal starting from given node
+
+- If node has a right child
+  - If the right child has no left child, return the right child
+  - Else continue traversing the left child until there are no
+    more left childs, return the last left child
+- Else check the node's parent
+  - If the target node is a left child, return the parent node
+  - Else
+    - traverse the parents of target node until you find a parent who is
+      a left child, and return the parent of that node  
