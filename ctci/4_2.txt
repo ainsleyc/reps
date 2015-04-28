@@ -1,0 +1,9 @@
+
+Graph Breadth-First Search
+
+- Create two data structures: queue of nodes to process, and hash of visited nodes
+- Starting from initial node, find all adjacent nodes and push them into the queue. Place node into visited hash
+- Pop an element off the queue and repeat. If an adjacent node is found in the hash, don't push it into the queue (it already has been visited)
+- If we want to know the distance of the elements, we can push a hash with the element distance into the queue and increment with each "layer".
+- If the node is found return it.
+- If the queue is empty, then there is no path between the nodes.
