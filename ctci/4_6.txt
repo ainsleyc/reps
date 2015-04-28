@@ -1,0 +1,14 @@
+
+Tree First Common Ancestor
+
+- For each node, create an array of node references
+  - Follow the parent pointers back to the root node, pushing a pointer
+    to each node into the array
+- Once each node has an array of ancestor nodes, start at the last node
+  of each array (which is the tree's root node)
+  - Take one step at a time through each node's array, and compare the
+    references.
+  - Once a different node is encountered, the previous node is the 
+    first common ancestor.
+
+- O(n) where n is the average depth of the tree.
