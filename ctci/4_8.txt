@@ -1,0 +1,10 @@
+
+Tree path check
+
+- Start an in-order traversal of the tree
+  - At each stage of the traversal, pass in a doubly linked list that contains the current path
+    - As each node is inspected, append the node to the linked list
+    - As each subtree is exited, pop the node from the end of the linked list
+  - As each node is processed, check if any of the previous nodes found a sum in the current path
+    - Staring from the end of the list, iterate backwards while creating a sum off all the values
+    - If at any point the sum is equal to the value of the current node, a path has been found. Either print the path, or store it in a secondary data structure.
