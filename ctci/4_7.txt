@@ -1,0 +1,17 @@
+
+BTree subtree search
+
+- Assuming the nodes in the subtree are not actually the same nodes in the main tree?
+  - If the nodes are the same, then just searching the large tree for the head node of the subtree is sufficient.
+
+- Assuming binary search tree?
+  - If not binary search tree, then it can be done in O(nm) time
+  - Do an in-order traveral of the large tree and create a concatinated string of all the values
+  - Do an in-order traversal of the small tree and create a concatinated string of all the values
+  - Check if the small tree string is a substring of the large tree string
+
+- If it is a binary search tree, can be optimized to O(m log n)
+  - Use binary tree search to find head value of small tree in large tree
+  - For each result found, do in-order traversal starting from matching head value and create a concatinated string
+  - Look for string match with the concatinated string of the small tree
+  - Further optimization can be had by passing the small tree string into the in-order traversal, and aborting the traversal if any part of the substring is not found to match.
