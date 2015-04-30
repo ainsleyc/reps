@@ -1,0 +1,44 @@
+
+Base Classes:
+
+Card
+
+Deck
+- draw (pop)
+- push
+- shuffle
+
+Hand
+- add
+- discard
+
+Player
+
+Game
+- start
+- end
+
+Texas Holdem Classes:
+
+StandardCard
+- suit
+- value
+
+StandardDeck
+- constructor
+- (size validations)
+
+Hand
+
+HoldedPokerPlayer
+- chips
+- Hand
+
+HoldemPokerGame
+- deal
+- burnCard
+- flop
+- turn
+- river
+- raise(player)
+- fold(player)
