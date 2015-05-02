@@ -1,0 +1,46 @@
+
+Call Center Design
+
+class CallCenter
+
+  fresherQueue: []
+  technicalLeadQueue: []
+  programManagerQueue: []
+
+  handleCall: (call) =>
+    handler = @getCallHandler()
+    if handler?
+      handler.handleCall(call, (err, result) =>
+        # handle err
+        # handle result
+        @addQueue(handler)  
+      )
+    else 
+      throw "allOperatorsAreBusy"
+
+  getCallHandler: () =>
+    if (fresherQueue.length > 0) {
+      return freshserQueue.pop()
+    } else if (technicalLeadQueue.length > 0) {
+      return technicalLeadQueue.pop()
+    } else if (programManagerQueue.length > 0) {
+      return programManagerQueue.pop()
+    } else {
+      return null
+    }
+
+  addQueue: (Employee) =>
+    # Check type of Employee and add to correct queue
+
+  addFresherQueue: (Employee) =>
+  addTechnicalLeadQueue: (Employee) =>
+  addProgramManagerQueue: (Employee) =>
+
+class Employee
+  handleCall: () =>
+
+class Fresher extends Employee
+
+class TechnicalLead extends Employee
+
+class ProgramManager extends Employee
