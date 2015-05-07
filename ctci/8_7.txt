@@ -1,0 +1,26 @@
+
+Add Cents
+
+function addCoins (coinArray, sum, target) {
+  if sum == target 
+    print coinArray
+    return 
+
+  else
+    if coinArray[-1] >= 25 && sum + 25 <= target
+      coinArray.push(25)
+      addCoins(coinArray, sum+25, target) 
+      pop from coinArray
+    if coinArray[-1] >= 10 && sum + 10 <= target
+      coinArray.push(10)
+      addCoins(coinArray, sum+10, target) 
+      pop from coinArray
+    if coinArray[-1] >= 5 && sum + 5 <= target
+      coinArray.push(5)
+      addCoins(coinArray, sum+5, target) 
+      pop from coinArray
+    if coinArray[-1] >= 1 && sum + 1 <= target
+      coinArray.push(1)
+      addCoins(coinArray, sum+1, target) 
+      pop from coinArray
+}
