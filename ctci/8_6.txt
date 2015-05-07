@@ -1,0 +1,13 @@
+
+Paint Fill
+
+function fill(grid, color, x, y) {
+  if grid[x][y] is equal to color, 
+    return
+  else 
+    grid[x][y] = color 
+    if not oustide grid then fill(grid, color, x+1, y)
+    if not outside grid then fill(grid, color, x-1, y)
+    if not outside grid then fill(grid, color, x, y+1)
+    if not outside grid then fill(grid, color, x, y-1)
+}
