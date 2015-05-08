@@ -1,0 +1,29 @@
+
+function arrangeQueens() {
+  var board = new QueenChessBoard();
+  addQueen(board, queenCount);  
+}
+
+function addQueen(board, queenCount) {
+  if (board.queenCount === queenCount) {
+    board.print()
+    return;
+  }
+  for (i = 0; i < board.length; i++) {
+    for (j = 0; j < board.length; j++) {
+      if (!board.checkQueen(x, y)) {
+        board.addQueen(i, j);
+        addQueen(board);
+        removeQueen(i, j); 
+      } 
+    }
+  }
+}
+
+function QueenChessBoard() {
+  this.checkQueen = function(x, y) {}
+  this.addQueen = function(x, y) {}
+  this.removeQueen = function(x, y) {}
+  this.queenCount = function() {}
+  this.print = function() {}
+}
