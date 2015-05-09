@@ -1,0 +1,2 @@
+
+Mergesort. It's good for anything that is too big to ffit in memory, since the individual splits can be hedlp in staic files and the merges can happen using streaming reads of the files, meaning the total memry usage can be very low (though it will be much slower due to the need to read/write a lot of files). 
