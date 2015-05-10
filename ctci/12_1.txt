@@ -1,0 +1,25 @@
+
+Submit endpoint
+POST /<company_id>/end_of_day_price
+{
+  open:
+  high:
+  low:
+  closing:
+}
+
+Get single company endpoint:
+GET /<company_id>?date=<date>
+
+Get all companies endpoint:
+GET /all/?date=<date>
+
+Notes:
+* All can be stored in a simple SQL database, or nosql like Mongo since the data is pretty non-relational
+* For high volume reads, both the get endpoints can be easily cached since the data is static
+* We can add additional write logic, like only allowing a single submit of end-of-day price per company.
+* Post endpoints should require authentication to prevent shenanigans
+
+
+
+
