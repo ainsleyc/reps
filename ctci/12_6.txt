@@ -1,0 +1,6 @@
+
+To detect duplicate documents, use a hashing function with a large enough number of bits and hash the entire contents of each page, inserting into a hash table as the key as you do so.
+
+If you ever encounter a hash key that already has been found, you have found a duplicate page.
+
+For a large number of urls the cache should probably be external, using something like redis or memcached.
