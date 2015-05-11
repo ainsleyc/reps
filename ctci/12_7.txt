@@ -1,0 +1,8 @@
+
+So to store large amounts of data, you need to shard it and store it on different machines.
+
+The problem is that typically the sharding strategy will be using a hash key (peferably a consistent hash), but that type of sharding will cause very expensive read operations which have to hit a large number of machines in the cluster.
+
+You can shard based on a different key, in particular whatever key you are planning on making range queries against. However this has the problem of possibly having uneven distribution of the data. So it depends on how well the dataset is understood.
+
+For example having users sharded based on geography is possibly a good idea, since t seems more likely that users will have a higher hit rate with people who live near them, or may try to facet along the lines of "people who live hear me".
