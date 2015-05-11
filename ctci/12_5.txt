@@ -1,0 +1,6 @@
+
+To prevent getting into infinte loops, you need to cache the urls of all the pages you have already visited.
+
+The cache should be distributed and scaleable, something like redis or memcache.
+
+You can have entries in the cache expire after a set amount of time to allow re-crawling at ceratin intervals.
