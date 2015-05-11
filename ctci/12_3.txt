@@ -1,0 +1,6 @@
+
+So you can do a file-system based mergesort. Actually the unix command "sort" already does this, using temporary files.
+
+During the merge process, the sort function reads each file as a stream. Since each sub-file is already sorted, the algorithm can use only a very smal amount of memory (in exchange for using a large number of file handles and disk operations).
+
+Once the final sorted file has been created, the file can once again be scanned linearly to find a number that was not represented in the sorted list.
