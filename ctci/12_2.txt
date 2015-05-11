@@ -1,0 +1,18 @@
+
+Probably a graph database is the best fitting tool, but I don't know much about graph databases.
+
+In sql you could have two tables:
+
+Users
+- ID
+
+Friends
+- user1_id
+- user2_id
+- accepted
+
+When a friend request is created, it creates a user1_id -> user2_id entry in the join table. The accepted field is set to true when the friend request is accepted.
+
+Querying a path between two users is a pretty expensive read operation. One way to do this would be to write a recursive SQL script, but even that is probably too expensive for large request load.
+
+Ultimately that type of request probably needs to be pre-calculated and cached. 
