@@ -1,0 +1,12 @@
+
+Denormalization is the process of reducing the duplication of data by extracting it from a table and making it into a seperate table.
+
+For example, if a users table has a "state" column, you can denormalize it by createing a state table and replacing the "state" column with a "state_id" column referencing the state table.
+
+The advantage of denormalization is increasing the consistency of the database. If you ever need to change the name of a state, you only need to change it in one place instead of many, removing the change of error. Also you can use foreign keys to enforce integrity, for example nto allowing a state that is not in the state table.
+
+The disadvantage it slower queries due to large number of joins. 
+
+The extreme of denormalization is modern nosql databases like mongo, which claim to give you speed in exchange of denormalizing your database.
+
+
