@@ -1,0 +1,4 @@
+
+SELECT department, COUNT(employee_id) from department_table 
+GROUP BY department;
+
