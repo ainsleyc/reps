@@ -1,0 +1,12 @@
+
+Inner join: most common, returns all rows from where there is a matched key in the left and right table.
+
+SELECT user.id, user.name, department.name from user
+INNER JOIN department 
+ON user.department_id = department.id
+
+Left/right join: Like the inner join, but also return values from the left/right table that didn't find any matches in the left/right table. One use case is when there is optional information on a table: in example above, if some users don't have a department_id.
+
+Outer join: Also return all values from left and right table that don't have matching keys.
+
+
