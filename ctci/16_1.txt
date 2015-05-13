@@ -1,0 +1,6 @@
+
+Virtual Memory: Each process is given a memory address block as if it was the only process running on the machine. This virtual address space is mapped to a smaller real address space in the machine's physical memory.
+
+Page fault: When a page of virtual memory is not found to be in physical memory, the machine has to stop the process and fetch the missing page from the hard drive to be loaded into physical memory.
+
+Thrashing: When page faults are happening constantly because the allocation physical memory to a process is to small for it's normal operating memory size.
