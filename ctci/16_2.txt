@@ -1,0 +1,2 @@
+
+Branch target predictor: In the computers processer, when a branching statement is going to occur the expected next instructions in memory may be pre-cached before the statement is executed. This could speed up execution if the taken branch is anticpated correctly.
