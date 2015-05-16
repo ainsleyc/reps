@@ -1,0 +1,5 @@
+
+Identifying big-endianess or little endian-ness
+
+- Create a byte array, which uses a contigous block of memory
+- Examine the memory addresses or two adjacent elements
