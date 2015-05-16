@@ -1,0 +1,7 @@
+
+- Keyboard hardware sends signal to keyboard driver
+- Keyboard driver sends interrupt signal to processor
+- Processor does a lookup to see what process needs to handle the keystroke
+- That process is context switched into and is given the keystroke event
+- Process handles the keystoke
+- Processor unloads and continues processing
