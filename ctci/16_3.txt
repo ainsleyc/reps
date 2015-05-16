@@ -1,0 +1,2 @@
+
+DMA allows computer subsystems like hard disk, network card, etc access main memory. The CPU needs to begin the transfer, but can then do other work while waiting for an interrupt from the subsystem when it is done.
