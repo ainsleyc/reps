@@ -1,0 +1,22 @@
+
+Url into Browser
+
+- Browser send http request to local network router
+- Router checks it's dns cache to see if it knows the IP address of the request domain
+- If not it will make a request to DNS server to get the IP address
+- If DNS server doesn't have the domain cached, it may need to as other DNS servers
+- Local router sets up NAT entry to be able to route the response back to the original requestor inside local network
+- Router finds next hop and sends request over IP
+- A series of routers finds the next closest hop to targer and relays the packets
+- At arriving IP address, could be the actual server of a load balancer.
+- The final server could be a static server like Apache, or a dynamic server like Rails / Express
+- If static content, the static content is found by the path of the request
+- If dynamic server, the desired result is found by looking at the routes configuration
+- Content requested might be of differnt formats: html, json, etc
+- Application server will collect whatever data is needed to process the request from it's data stores (sql, mongo, etc) and builds the response, possible using server side templating language
+- Application server responds with compiled HTML page
+- Browser recives HTML page and begins rendering the page
+- First it loads any scripts / links indicated in the head of the http page. The scripts are run and styles are loaded into memory.
+- It then begins rendering the DOM of the html text it recieved
+- At any point if there is javascript called, it it executed. Commonly it will be executed in a onLoad type function which waits for the DOM to be finished.
+- If the javascript is based on a modern client side framework (Angular, React, etc), possibly be using client side rending to add more DOM elements to the page.
