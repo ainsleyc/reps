@@ -1,0 +1,3 @@
+
+Biggest difference is that IPv4 has 4 bytes, IPv6 has 16 bytes.
+
