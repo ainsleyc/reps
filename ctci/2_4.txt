@@ -1,0 +1,9 @@
+
+Adding two linked list numbers
+
+while either linked list still has elements
+  Sum the nth element of each list, +1 if the carry flag is set
+  if the sum > 9, set carry flag to true, otherwise false
+  push into result linked list sum % 10
+  continue
+
