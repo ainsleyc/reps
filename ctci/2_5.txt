@@ -1,0 +1,5 @@
+
+Find loop in linked list
+
+Maintain a set of the memory addresses of each visited node.
+When you find a duplicate memory address, then you have found the beginning of the loop.
