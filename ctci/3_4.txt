@@ -1,0 +1,7 @@
+
+Towers of Hanoi
+
+recursive subproblem:
+- Move stack items 1 to (n-1) on stack a to open stack b
+- Move stack item n to stack c
+- Recurse: Move items 1 to (n-1) on stack b to stack c via stack a
