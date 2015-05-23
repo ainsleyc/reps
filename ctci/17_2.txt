@@ -1,0 +1,7 @@
+
+OSPF:
+
+- Routing protol used for IP
+- Each router forms IP datagrams that contain information about it's known topology to neighboring routers
+- Together, the routers build a topology of the network which is exposed as the IP routing table
+- IP can then just use the target addresa and the routing table to determine the next hop to route packets to.
