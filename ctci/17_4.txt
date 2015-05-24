@@ -1,0 +1,8 @@
+
+IP Subnetting
+
+- In an IP routing table, each port has a ip address and subnet mask.
+- This pair indicates which subset of ip addresses that port contains, for example 192.168.0.1 mask 255.255.255.0 means that that port contains addresses 192.168.0.*.
+- This allows an IP enabled devices to read incoming packets and push them onto the right port so that they can reach the next hop.
+- Typically a routing device will have a default port where all packets not in it's ip table will go to.
+- So for a local network, the router will route packets to the appropreate subnet, but all other packets (like outgoing to the internet) will go to the default port.
