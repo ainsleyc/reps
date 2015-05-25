@@ -1,0 +1,12 @@
+
+TCP and UDP are both transaction layer protocols on top of IP.
+
+UDP does not provide any assurances, just sends the packet to specified IP and port without any handshake / confirmation.
+
+TCP does multiple things to ensure the data arrives correctly:
+- First a 3-way handshake is established using SYN / SYN-ACK / ACK packets
+- A sequence number is used to reconstruct the incoming data in order, even if the network causes them to arrive out of order
+- The reciever sends a cumulative acknowledgement, indicating the last byte is received and what it expects to recieve next
+- If sender detects after some time that packets have been lost, it will retransmit the indicated packet the reciever is expecting.
+- Reciever also specifies the size of it's recieve window, or how much data is is willing to buffer. Sender only allows that much data to be in-flight at once
+- Congestion control: slow-start, congestion-avoidance, fast retransmit
