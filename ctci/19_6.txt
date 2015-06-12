@@ -1,0 +1,7 @@
+
+Maintain a hash of string conversions between 0-999 and their string equivalents
+Maintain a hash of 3 digit block labels ['', 'thousand', 'million', ... ]
+
+mod the input by 1000, lookup the value in the string conversion hash, and prepend the value and the 3 digit block label to output array
+divide the input by 1000
+repeat until input is zero
