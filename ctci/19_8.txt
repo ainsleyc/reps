@@ -1,0 +1,6 @@
+
+Easiest way is to just index all the words in the book by count beforehand, for constant time access to the word count in the book.
+You can also index whatever data you need, such as the mage numbers of the words, etc.
+
+If you have to do it at runtime for some reason, it will take linear time to do so. Hoever you can then cache the word count results
+so that all future requests will be constant time.
