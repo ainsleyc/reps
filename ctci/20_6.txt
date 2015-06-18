@@ -1,0 +1,5 @@
+
+If the entire array of numbers can fit into memory, then you can just use a quicksort on the array
+to find the largest 1M numbers in n log n time.
+
+Quicksort can be done in-place on an array, which only uses a constant amount of extra memory.
