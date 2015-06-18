@@ -1,0 +1,10 @@
+
+Assuming there are no duplicate words.
+
+So if "large" is not so large that the words cannot fit in memory, then you can build
+an index of word : line number pairs. Once you have this dictionary, you can look up the 
+two words in constant time and just subtract their indexes in the file.
+
+If the file is too big to fit in a single machine's memory, you can still use a hashing
+strategy to divide up the keys to multiple in-memory caches (like redis) and have a service
+that deterines which redis instance contains the key that you are looking for.
