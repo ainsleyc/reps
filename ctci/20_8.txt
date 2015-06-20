@@ -1,0 +1,3 @@
+
+Take the input array and createa a trie with them O(n)
+Iterate through each letter of the input string, checking to see if the subsequent substring is in the trie O(n)
