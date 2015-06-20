@@ -1,0 +1,6 @@
+
+Class that contains:
+- Linked list of sorted inputed values
+- Pointer to the current median
+- When a new entiry is added, find the correct location in the list and insert O(n)
+- Increase or decrease the pointer to current median depending if it is higher or lower than the median O(1)
