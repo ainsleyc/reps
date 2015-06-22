@@ -1,0 +1,14 @@
+
+function getTransformPath(startWord, endWord, path) {
+  // If startWord == endWord, return path
+  // Discard all words in dictionary that are not equal number of character as input
+  // For startWord, find all words that are one character different from startWord
+  // For those words, sort them by decending order of endWord
+  // Push current word into path
+  // Recur getTransformPath, passing in the current path and the new startWord
+  // Pop current word from path
+}
+
+function getCharacterDiff(startWord, endWord) {
+  // Return the number of characters the two words are different
+}
