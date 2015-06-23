@@ -1,0 +1,22 @@
+
+Create 2 hashes "seen" hashes: One for vertical lines and one for horizontal lines
+Create 1 hash for each posible vertical line length, and each possible horizontal line length
+
+Iterate through the matrix from x to y axis
+
+For each black pixel, check if it has already been used in a horizontal and verical line by examining the "seen" hashes
+  If not, enter a subroutine to increment x/y to find the longest black line tha the pixel is part of
+  While incrementing, add the pixels of the line to the "seen" hashes
+  Once the longest vertical / horizontal line is found, add it to the correct vertical / horizontal line hash
+
+By doing this the entire matrix can be analyxed with minimal duplicate examination of matrix cells.
+
+At the end of examination will have a series of hashes representing valid and unique horizontal / veritical lines in the system
+
+For the horizontal hashes, the keys might look like "1-1:1-5", representing the 2 x/y coordinates that make up the line vertices
+For each hoirzontal line length hash, sort the keys.
+Since the first pixel of any box will be the same, check of keys for which the first half of the key is the same.
+  If a pair is found, we can calculate the exact pair of vertical lines that must exist to create a square
+  Check the matching length vertical line hashes to see if the square is complete.
+  Return the first completed square that is found.
+
