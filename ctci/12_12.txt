@@ -1,0 +1,15 @@
+Start with 2 data structures: visited hash and results max heap.
+
+For each point going from x to y,
+  if the current point is not in the visited array,
+    recursively attempt to expand the matrix in 8 directions:
+      left
+      right
+      up
+      down
+      up-left
+      up-right
+      down-left
+      down-right
+    do this until the entire matrix has been examined, and record the largest matrix that was found in the maxheap
+    also record all nodes used in the max matrix in the visited hash
