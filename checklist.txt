@@ -1,0 +1,25 @@
+TBD:
+Graph: Adjacency List
+Dijkstra's /w fibonacci heap
+Mergesort
+Heapsort
+Quicksort
+Kruskal's algorithm /w union (?)
+Deterministic quick select (?)
+Knapsack (?)
+Ford-Fulkerson (?)
+Floyd-Warshall (?)
+Exponentiation (powers) by halving (?)
+PageRank (?)
+
+JS prototype inheritance
+
+Skipped:
+
+
+Studied:
+
+
+Implemented:
+* Graph: Adjacency Matrix
+  * Breadth first traversal of graph
