@@ -4,6 +4,9 @@ Dijkstra's /w fibonacci heap
 Mergesort
 Heapsort
 Quicksort
+Traveling Salesman
+Prim (?)
+Bellman-Ford (?)
 Kruskal's algorithm /w union (?)
 Deterministic quick select (?)
 Knapsack (?)
@@ -13,6 +16,8 @@ Exponentiation (powers) by halving (?)
 PageRank (?)
 
 JS prototype inheritance
+
+Raft
 
 Skipped:
 
