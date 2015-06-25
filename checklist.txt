@@ -4,7 +4,7 @@ Dijkstra's /w fibonacci heap
 Mergesort
 Heapsort
 Quicksort
-Traveling Salesman
+Traveling Salesman (?)
 Prim (?)
 Bellman-Ford (?)
 Kruskal's algorithm /w union (?)
