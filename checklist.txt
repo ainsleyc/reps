@@ -23,6 +23,7 @@ Skipped:
 
 Studied:
 * Raft
+* etcd
 
 Implemented:
 * Graph: Adjacency Matrix
