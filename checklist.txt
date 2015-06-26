@@ -17,13 +17,12 @@ PageRank (?)
 
 JS prototype inheritance
 
-Raft
 
 Skipped:
 
 
 Studied:
-
+* Raft
 
 Implemented:
 * Graph: Adjacency Matrix
