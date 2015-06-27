@@ -15,7 +15,6 @@ Floyd-Warshall (?)
 Exponentiation (powers) by halving (?)
 PageRank (?)
 
-JS prototype inheritance
 
 
 Skipped:
@@ -24,6 +23,7 @@ Skipped:
 Studied:
 * Raft
 * etcd
+* JS prototype inheritance using Object.create()
 
 Implemented:
 * Graph: Adjacency Matrix
