@@ -1,4 +1,6 @@
 
+var assert = require('assert');
+
 function Heap () {
   this.tree = [];
   this.ptr = 0;
@@ -43,11 +45,29 @@ Heap.prototype._getParentIndex = function (index) {
 }
 
 Heap.prototype._getLeftChild = function (index) {
-  return index * 2
+  return (index * 2) + 1
 }
 
 Heap.prototype._getRightChild = function (index) {
-  return (index * 2) + 1
+  return (index * 2) + 2
+}
+
+Heap.prototype._validate = function () {
+  var queue = [];
+  queue.push(0);
+  while (queue.length > 0) {
+    var curr = queue.pop();
+    var left = this._getLeftChild(curr);
+    var right = this._getRightChild(curr);
+    if (left < this.ptr) {
+      assert.equal(this.tree[curr] <= this.tree[left], true);
+      queue.push(left);
+    }
+    if (right < this.ptr) {
+      assert.equal(this.tree[curr] <= this.tree[right], true);
+      queue.push(right);
+    }
+  }
 }
 
 function MinHeap () {
@@ -60,7 +80,7 @@ MinHeap.prototype = Object.create(Heap.prototype);
 MinHeap.prototype._bubbleUp = function () {
   var currIndex = this.ptr-1;
   var parentIndex = this._getParentIndex(currIndex);
-  while (parentIndex) {
+  while (parentIndex !== null) {
     if (this.tree[currIndex] < this.tree[parentIndex]) {
       var temp = this.tree[currIndex];
       this.tree[currIndex] = this.tree[parentIndex];
@@ -79,12 +99,6 @@ MinHeap.prototype._bubbleDown = function () {
   var right = this._getRightChild(currIndex);
   
   while (left < this.ptr || right < this.ptr) {
-    // console.log("here");
-    // console.log(right >= this.ptr)
-    // console.log(left)
-    // console.log(this.tree[left])
-    // console.log(right)
-    // console.log(this.tree[right])
     if (right >= this.ptr || this.tree[left] < this.tree[right]) {
       if (this.tree[currIndex] > this.tree[left]) {
         var temp = this.tree[currIndex];
@@ -92,7 +106,7 @@ MinHeap.prototype._bubbleDown = function () {
         this.tree[left] = temp;
         currIndex = left;
         left = this._getLeftChild(currIndex);
-        right = this._getLeftChild(currIndex);
+        right = this._getRightChild(currIndex);
       } else {
         break;
       }
@@ -103,7 +117,7 @@ MinHeap.prototype._bubbleDown = function () {
         this.tree[right] = temp;
         currIndex = right;
         left = this._getLeftChild(currIndex);
-        right = this._getLeftChild(currIndex);
+        right = this._getRightChild(currIndex);
       } else {
         break;
       }
@@ -111,41 +125,52 @@ MinHeap.prototype._bubbleDown = function () {
   }
 }
 
-var heap = new MinHeap();
-heap.insert(1);
-console.log(heap.tree);
-heap.insert(2);
-console.log(heap.tree);
-heap.insert(3);
-console.log(heap.tree);
-heap.insert(4);
-console.log(heap.tree);
-heap.insert(5);
-console.log(heap.tree);
-heap.insert(6);
-console.log(heap.tree);
-heap.insert(2);
-console.log(heap.tree);
-heap.insert(3);
-console.log(heap.tree);
-heap.insert(4);
-console.log(heap.tree);
-heap.insert(5);
-console.log(heap.tree);
-heap.insert(6);
-console.log(heap.pop());
-console.log(heap.tree);
-// console.log(heap.pop());
+module.exports.MinHeap = MinHeap;
+
+// var heap = new MinHeap();
+// heap.insert(1);
+// heap.insert(2);
+// heap.insert(3);
+// heap.insert(4);
+// heap.insert(5);
+// heap.insert(6);
+// heap.insert(2);
+// heap.insert(3);
+// heap.insert(4);
+// heap.insert(5);
+// heap.insert(6);
+
 // console.log(heap.tree);
+
 // console.log(heap.pop());
-// console.log(heap.tree);
 // console.log(heap.pop());
-// console.log(heap.tree);
 // console.log(heap.pop());
-// console.log(heap.tree);
 // console.log(heap.pop());
-// console.log(heap.tree);
 // console.log(heap.pop());
-// console.log(heap.tree);
 // console.log(heap.pop());
+// console.log(heap.pop());
+// console.log(heap.pop());
+
 // console.log(heap.tree);
+// console.log()
+
+// heap.insert(1);
+// console.log(heap.tree)
+// heap.insert(2);
+// console.log(heap.tree)
+// heap.insert(3);
+// console.log(heap.tree)
+// heap.insert(4);
+// console.log(heap.tree)
+// heap.insert(5);
+// console.log(heap.tree)
+
+// console.log(heap.pop());
+// console.log(heap.pop());
+// console.log(heap.pop());
+// console.log(heap.pop());
+// console.log(heap.pop());
+// console.log(heap.pop());
+// console.log(heap.pop());
+// console.log(heap.pop());
+

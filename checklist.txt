@@ -26,5 +26,6 @@ Studied:
 * JS prototype inheritance using Object.create()
 
 Implemented:
+* MinHeap
 * Graph: Adjacency Matrix
   * Breadth first traversal of graph
