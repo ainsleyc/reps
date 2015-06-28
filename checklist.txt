@@ -1,6 +1,4 @@
 TBD:
-Graph: Adjacency List
-Dijkstra's /w fibonacci heap
 Mergesort
 Heapsort
 Quicksort
@@ -16,16 +14,19 @@ Exponentiation (powers) by halving (?)
 PageRank (?)
 
 
-
 Skipped:
+* Fibbonaci heap (?)
 
 
 Studied:
 * Raft
 * etcd
 * JS prototype inheritance using Object.create()
+* Dijkstra's Shortest Path
+
 
 Implemented:
 * MinHeap
 * Graph: Adjacency Matrix
   * Breadth first traversal of graph
+* Graph: Adjacency List
