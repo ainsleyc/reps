@@ -4,7 +4,6 @@ Heapsort
 Quicksort
 Traveling Salesman (?)
 Prim (?)
-Bellman-Ford (?)
 Kruskal's algorithm /w union (?)
 Deterministic quick select (?)
 Knapsack (?)
@@ -15,7 +14,8 @@ PageRank (?)
 
 
 Skipped:
-* Fibbonaci heap (?)
+* Fibbonaci heap
+* Bellman-Ford
 
 
 Studied:
