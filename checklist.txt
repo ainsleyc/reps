@@ -11,6 +11,8 @@ Ford-Fulkerson (?)
 Floyd-Warshall (?)
 Exponentiation (powers) by halving (?)
 PageRank (?)
+Cassandra Data Modeling
+Cassandra System
 
 
 Skipped:
