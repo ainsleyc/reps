@@ -38,7 +38,7 @@ Heap.prototype._getParentIndex = function (index) {
     return null;
   }
   if (index % 2 === 0) {
-    return index / 2;
+    return (index - 2) / 2;
   } else {
     return (index - 1) / 2;
   }
@@ -128,49 +128,23 @@ MinHeap.prototype._bubbleDown = function () {
 module.exports.MinHeap = MinHeap;
 
 // var heap = new MinHeap();
-// heap.insert(1);
-// heap.insert(2);
-// heap.insert(3);
-// heap.insert(4);
-// heap.insert(5);
-// heap.insert(6);
-// heap.insert(2);
-// heap.insert(3);
-// heap.insert(4);
-// heap.insert(5);
-// heap.insert(6);
+// for (var i = 0; i < 100; i++) {
+//   heap.insert(Math.ceil(Math.random() * 100));
+//   heap._validate();
+// }
 
-// console.log(heap.tree);
+// for (var i = 0; i < 50; i++) {
+//   heap.pop();
+//   heap._validate();
+// }
 
-// console.log(heap.pop());
-// console.log(heap.pop());
-// console.log(heap.pop());
-// console.log(heap.pop());
-// console.log(heap.pop());
-// console.log(heap.pop());
-// console.log(heap.pop());
-// console.log(heap.pop());
+// for (var i = 0; i < 50; i++) {
+//   heap.insert(Math.ceil(Math.random() * 100));
+//   heap._validate();
+// }
 
-// console.log(heap.tree);
-// console.log()
-
-// heap.insert(1);
-// console.log(heap.tree)
-// heap.insert(2);
-// console.log(heap.tree)
-// heap.insert(3);
-// console.log(heap.tree)
-// heap.insert(4);
-// console.log(heap.tree)
-// heap.insert(5);
-// console.log(heap.tree)
-
-// console.log(heap.pop());
-// console.log(heap.pop());
-// console.log(heap.pop());
-// console.log(heap.pop());
-// console.log(heap.pop());
-// console.log(heap.pop());
-// console.log(heap.pop());
-// console.log(heap.pop());
+// for (var i = 0; i < 100; i++) {
+//   heap.pop();
+//   heap._validate();
+// }
 
