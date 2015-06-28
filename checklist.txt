@@ -3,8 +3,6 @@ Mergesort
 Heapsort
 Quicksort
 Traveling Salesman (?)
-Prim (?)
-Kruskal's algorithm /w union (?)
 Deterministic quick select (?)
 Knapsack (?)
 Ford-Fulkerson (?)
@@ -18,6 +16,9 @@ Cassandra System
 Skipped:
 * Fibbonaci heap
 * Bellman-Ford
+* Minimum spanning tree
+  * Prim
+  * Kruskal's algorithm /w union
 
 
 Studied:
