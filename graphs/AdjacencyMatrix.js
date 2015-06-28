@@ -54,6 +54,44 @@ AdjacencyMatrix.prototype.breadthFirstTraversal = function(startNodeIndex) {
   return results;
 }
 
+AdjacencyMatrix.prototype.dijkstras = function (start) {
+  var visited = { 0: true };
+  var results = {};
+  results[start] = { 
+    dist: 0,
+    path: []
+  }
+  return this._dijkstras(start, visited, results);
+}
+
+AdjacencyMatrix.prototype._dijkstras = function (curr, visited, results) {
+  var nearestDist = null;
+  var nearestIndex = null;
+  var unvisitedNeighbors = 0;
+  for (var i = 0; i < this.weights[curr].length; i++) {
+    if (this.weights[curr][i] !== undefined && !visited[i]) {
+      unvisitedNeighbors++;
+      if (nearestDist === null || nearestDist > this.weights[curr][i]) {
+        nearestDist = this.weights[i];
+        nearestIndex = i;
+      }
+      if (!results[i] || results[curr].dist + this.weights[curr][i] < results[i].dist) {
+        results[i] = {
+          dist: results[curr].dist + this.weights[curr][i],
+          path: results[curr].path.slice(0)
+        }
+        results[i].path.push(i);
+      }
+    }
+  } 
+  if (unvisitedNeighbors === 0) {
+    return results;
+  } else {
+    visited[nearestIndex] = true;
+    return this._dijkstras(nearestIndex, visited, results);
+  }
+}
+
 module.exports = AdjacencyMatrix;
 
 var graph = new AdjacencyMatrix(100);
@@ -62,10 +100,15 @@ for (var i = 0; i < 10; i++) {
 }
 graph.setEdge(2, 6, 5);
 graph.setEdge(2, 4, 2);
+graph.setEdge(2, 10, 50);
 graph.setEdge(1, 2, 9);
 graph.setEdge(1, 3, 100);
 graph.setEdge(1, 4, 1);
+graph.setEdge(4, 6, 2);
 graph.setEdge(6, 3, 5);
 graph.setEdge(6, 9, 4);
-assert.equal(graph.breadthFirstTraversal(1).length, 6);
-assert.equal(graph.breadthFirstTraversal(6).length, 3);
+graph.setEdge(10, 11, 31);
+// assert.equal(graph.breadthFirstTraversal(1).length, 7);
+// assert.equal(graph.breadthFirstTraversal(6).length, 3);
+
+console.log(graph.dijkstras(1));

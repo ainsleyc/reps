@@ -127,24 +127,24 @@ MinHeap.prototype._bubbleDown = function () {
 
 module.exports.MinHeap = MinHeap;
 
-// var heap = new MinHeap();
-// for (var i = 0; i < 100; i++) {
-//   heap.insert(Math.ceil(Math.random() * 100));
-//   heap._validate();
-// }
+var heap = new MinHeap();
+for (var i = 0; i < 100; i++) {
+  heap.insert(Math.ceil(Math.random() * 100));
+  heap._validate();
+}
 
-// for (var i = 0; i < 50; i++) {
-//   heap.pop();
-//   heap._validate();
-// }
+for (var i = 0; i < 50; i++) {
+  heap.pop();
+  heap._validate();
+}
 
-// for (var i = 0; i < 50; i++) {
-//   heap.insert(Math.ceil(Math.random() * 100));
-//   heap._validate();
-// }
+for (var i = 0; i < 50; i++) {
+  heap.insert(Math.ceil(Math.random() * 100));
+  heap._validate();
+}
 
-// for (var i = 0; i < 100; i++) {
-//   heap.pop();
-//   heap._validate();
-// }
+for (var i = 0; i < 100; i++) {
+  heap.pop();
+  heap._validate();
+}
 
