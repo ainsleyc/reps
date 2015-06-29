@@ -5,7 +5,6 @@ Quicksort
 Traveling Salesman (?)
 Deterministic quick select (?)
 Knapsack (?)
-Ford-Fulkerson (?)
 Exponentiation (powers) by halving (?)
 PageRank (?)
 Cassandra Data Modeling
@@ -15,12 +14,13 @@ Cassandra System
 Skipped:
 * Fibbonaci heap
 * Graph
-* Minimum spanning tree
-  * Prim
-  * Kruskal's algorithm /w union
-* Shortest path
-  * Bellman-Ford
-  * Floyd-Warshall
+  * Ford-Fulkerson
+  * Minimum spanning tree
+    * Prim
+    * Kruskal's algorithm /w union
+  * Shortest path
+    * Bellman-Ford
+    * Floyd-Warshall
 
 
 Studied:
