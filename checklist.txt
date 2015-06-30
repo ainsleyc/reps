@@ -2,13 +2,12 @@ TBD:
 Mergesort
 Heapsort
 Quicksort
-Traveling Salesman (?)
 Deterministic quick select (?)
-Knapsack (?)
 Exponentiation (powers) by halving (?)
 PageRank (?)
 Cassandra Data Modeling
 Cassandra System
+Dynamic Programming (?)
 
 
 Skipped:
@@ -29,6 +28,8 @@ Studied:
 * JS prototype inheritance using Object.create()
 * Dijkstra's Shortest Path
 * NP-complete
+  * Traveling Salesman
+  * Knapsack Problem
 
 
 Implemented:
