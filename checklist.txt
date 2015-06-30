@@ -1,6 +1,5 @@
 TBD:
 Mergesort
-Heapsort
 Quicksort
 Deterministic quick select (?)
 Exponentiation (powers) by halving (?)
@@ -34,6 +33,7 @@ Studied:
 
 Implemented:
 * MinHeap
+* Heapsort
 * Graph: Adjacency Matrix
   * Breadth first traversal of graph
 * Graph: Adjacency List
