@@ -28,6 +28,7 @@ Studied:
 * etcd
 * JS prototype inheritance using Object.create()
 * Dijkstra's Shortest Path
+* NP-complete
 
 
 Implemented:
