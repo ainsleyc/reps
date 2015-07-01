@@ -7,6 +7,8 @@ Cassandra System
 Google File System
 BigTable
 Amazon Dynamo
+HDFS
+Zookeeper
 
 Skipped:
 * PageRank
