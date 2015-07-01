@@ -3,12 +3,12 @@ Mergesort
 Quicksort
 Deterministic quick select (?)
 Exponentiation (powers) by halving (?)
-PageRank (?)
 Cassandra Data Modeling
 Cassandra System
 
 
 Skipped:
+* PageRank
 * Dynamic Programming
 * Fibbonaci heap
 * Graph
