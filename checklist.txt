@@ -4,7 +4,9 @@ Quicksort
 Deterministic quick select (?)
 Cassandra Data Modeling
 Cassandra System
-
+Google File System
+BigTable
+Amazon Dynamo
 
 Skipped:
 * PageRank
