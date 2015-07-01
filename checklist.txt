@@ -6,10 +6,10 @@ Exponentiation (powers) by halving (?)
 PageRank (?)
 Cassandra Data Modeling
 Cassandra System
-Dynamic Programming (?)
 
 
 Skipped:
+* Dynamic Programming
 * Fibbonaci heap
 * Graph
   * Ford-Fulkerson
