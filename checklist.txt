@@ -27,6 +27,7 @@ Skipped:
 Studied:
 * Raft
 * etcd
+* Graphite
 * JS prototype inheritance using Object.create()
 * Dijkstra's Shortest Path
 * NP-complete
