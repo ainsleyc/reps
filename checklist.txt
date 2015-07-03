@@ -9,6 +9,7 @@ BigTable
 Amazon Dynamo
 HDFS
 Zookeeper
+Thrift
 
 Skipped:
 * PageRank
