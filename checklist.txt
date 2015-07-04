@@ -1,5 +1,4 @@
 TBD:
-Mergesort
 Quicksort
 Deterministic quick select (?)
 Cassandra Data Modeling
@@ -39,6 +38,7 @@ Studied:
 Implemented:
 * MinHeap
 * Heapsort
+* Mergesort
 * Graph: Adjacency Matrix
   * Breadth first traversal of graph
 * Graph: Adjacency List
