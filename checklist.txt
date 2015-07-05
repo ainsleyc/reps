@@ -1,6 +1,4 @@
 TBD:
-Quicksort
-Deterministic quick select (?)
 Cassandra Data Modeling
 Cassandra System
 Google File System
@@ -30,6 +28,7 @@ Studied:
 * Graphite
 * JS prototype inheritance using Object.create()
 * Dijkstra's Shortest Path
+* Quickselect
 * NP-complete
   * Traveling Salesman
   * Knapsack Problem
@@ -39,6 +38,7 @@ Implemented:
 * MinHeap
 * Heapsort
 * Mergesort
+* Quicksort
 * Graph: Adjacency Matrix
   * Breadth first traversal of graph
 * Graph: Adjacency List
