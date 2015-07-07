@@ -7,6 +7,19 @@ Amazon Dynamo
 HDFS
 Zookeeper
 Thrift
+A*
+InsertionSort
+RadixSort
+Priority Queue
+Tree Successor / Predecessor
+Probability
+Combinatorics
+Mutex
+Semaphores
+Monitors
+Process vs Thread
+Context switching
+Livelock / Deadlock
 
 Skipped:
 * PageRank
