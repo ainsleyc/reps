@@ -14,7 +14,6 @@ Priority Queue
 Tree Successor / Predecessor
 Probability
 Combinatorics
-Livelock / Deadlock
 Database Lock
 
 Skipped:
@@ -44,6 +43,7 @@ Studied:
   * Knapsack Problem
 * Mutex / Lock
 * Semaphores (counting)
+* Livelock / Deadlock
 * Context switching
 * Process vs Thread
 
