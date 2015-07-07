@@ -14,7 +14,6 @@ Priority Queue
 Tree Successor / Predecessor
 Probability
 Combinatorics
-Database Lock
 
 Skipped:
 * Monitors
@@ -46,6 +45,7 @@ Studied:
 * Livelock / Deadlock
 * Context switching
 * Process vs Thread
+* Database Lock
 
 
 Implemented:
