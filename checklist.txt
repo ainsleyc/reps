@@ -14,8 +14,6 @@ Priority Queue
 Tree Successor / Predecessor
 Probability
 Combinatorics
-Process vs Thread
-Context switching
 Livelock / Deadlock
 Database Lock
 
@@ -46,6 +44,8 @@ Studied:
   * Knapsack Problem
 * Mutex / Lock
 * Semaphores (counting)
+* Context switching
+* Process vs Thread
 
 
 Implemented:
