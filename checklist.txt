@@ -14,14 +14,13 @@ Priority Queue
 Tree Successor / Predecessor
 Probability
 Combinatorics
-Mutex
-Semaphores
-Monitors
 Process vs Thread
 Context switching
 Livelock / Deadlock
+Database Lock
 
 Skipped:
+* Monitors
 * PageRank
 * Dynamic Programming
 * Fibbonaci heap
@@ -45,6 +44,8 @@ Studied:
 * NP-complete
   * Traveling Salesman
   * Knapsack Problem
+* Mutex / Lock
+* Semaphores (counting)
 
 
 Implemented:
