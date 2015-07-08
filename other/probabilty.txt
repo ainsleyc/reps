@@ -18,4 +18,12 @@ Total probability that second chip is good: (0.8 / 1.1)(0.8) + (0.3 / 1.1)(0.3)
 Total probability that second chip is bad: (0.8 / 1.1)(0.2) + (0.3 / 1.1)(0.7)
  = 0.15 + 0.19  = 34%
 
+* Basketball Challenge
+
+Sum of binomial distribution:
+
+Where p is the probability of making a shot:
+1) sum((3! / (k! * (3-k)!)) * (p ^ 2) * ((1 - p) ^ (3-k))) where k = { 2, 3 }
+2) sum((8! / (k! * (8-k)!)) * (p ^ 2) * ((1 - p) ^ (8-k))) where k = { 5, 6, 7, 8 }
+
 
