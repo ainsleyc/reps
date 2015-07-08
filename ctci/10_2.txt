@@ -1,0 +1,10 @@
+
+For 3 verticies:
+Total combinations = 2^3 = 8
+Total non-collision combinations = 2
+Probability for non-collision = 2/8 = 1/4
+
+For n verticies:
+Total combinations = 2^n
+Total non-collision combinations = 2
+Probability for non-collision = 2 / (2^n)
