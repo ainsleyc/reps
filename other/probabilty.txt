@@ -1,0 +1,21 @@
+
+* 2 Chips probability
+
+pg1 = 0.8
+pg2 = 0.3
+
+p from good factory = 0.8 / 1.1
+p from bad factory = 0.3 / 1.1
+
+p second chip is good from good factory: (0.8 / 1.1)(0.8)
+p second chip is bad from good factory: (0.8 / 1.1)(0.2)
+p second chip is good from bad factory: (0.3 / 1.1)(0.3)
+p second chip is bad from bad factory: (0.3 / 1.1)(0.7)
+
+Total probability that second chip is good: (0.8 / 1.1)(0.8) + (0.3 / 1.1)(0.3)
+ = 0.58 + 0.08 = 66%
+
+Total probability that second chip is bad: (0.8 / 1.1)(0.2) + (0.3 / 1.1)(0.7)
+ = 0.15 + 0.19  = 34%
+
+
