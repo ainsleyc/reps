@@ -52,3 +52,21 @@ console.log("this:");
   boundGetFunctionThis = getFunctionThis.bind(testObject);
   assert.equal(boundGetFunctionThis(), testObject);
 })();
+
+console.log();
+console.log("Other:");
+
+(function() {
+  console.log("  - undefined vs null");
+  var undefinedVar;
+  var undefinedObj = {};
+  assert.equal(undefinedVar, undefined);
+  assert.equal(undefinedObj.test, undefined);
+  assert.notStrictEqual(undefined, null);
+})();
+
+(function() {
+  console.log("  - == vs ===");
+  assert.equal('1' == 1, true);
+  assert.equal('1' === 1, false);
+})();
