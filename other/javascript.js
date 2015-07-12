@@ -32,3 +32,23 @@ console.log("Closures:");
 })();
 
 console.log();
+console.log("this:");
+
+(function() {
+  console.log("  - Refers to the previous context in which the function was called");
+  var getFunctionThis = function() { return this; }
+  assert.equal(getFunctionThis().global, global);
+  var testObject = {
+    getFunctionThis: getFunctionThis
+  }
+  assert.equal(testObject.getFunctionThis(), testObject);
+})();
+
+(function() {
+  console.log("  - bind() allows setting of 'this' for all future function calls");
+  var getFunctionThis = function() { return this; }
+  assert.equal(getFunctionThis().global, global);
+  var testObject = {}
+  boundGetFunctionThis = getFunctionThis.bind(testObject);
+  assert.equal(boundGetFunctionThis(), testObject);
+})();
