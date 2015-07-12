@@ -53,6 +53,15 @@ console.log("this:");
   assert.equal(boundGetFunctionThis(), testObject);
 })();
 
+(function() {
+  console.log("  - call() and apply() allows setting of 'this' for single function calls");
+  var getFunctionThis = function() { return this; }
+  assert.equal(getFunctionThis().global, global);
+  var testObject = {}
+  assert.equal(getFunctionThis.call(testObject), testObject);
+  assert.equal(getFunctionThis.apply(testObject), testObject);
+})();
+
 console.log();
 console.log("Other:");
 
@@ -70,3 +79,5 @@ console.log("Other:");
   assert.equal('1' == 1, true);
   assert.equal('1' === 1, false);
 })();
+
+
