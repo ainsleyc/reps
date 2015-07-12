@@ -2,3 +2,4 @@
 * Arith Geo II
 * Array Addition
 * Binary Converter
+* Letter Count
