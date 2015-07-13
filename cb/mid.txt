@@ -3,5 +3,6 @@
 * Array Addition
 * Binary Converter
 * Letter Count
-* Simple Mode:w
+* Simple Mode
+* Consecutive
 
