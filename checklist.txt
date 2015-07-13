@@ -10,8 +10,6 @@ Thrift
 A*
 InsertionSort
 RadixSort
-Priority Queue
-Tree Successor / Predecessor
 
 Skipped:
 * Monitors
@@ -26,7 +24,6 @@ Skipped:
   * Shortest path
     * Bellman-Ford
     * Floyd-Warshall
-
 
 Studied:
 * Raft
@@ -46,10 +43,10 @@ Studied:
 * Database Lock
 * Probability
 * Combinatorics
+* Priority queue
 * Graph
   * In-order successor
   * In-order predecessor
-
 
 Implemented:
 * MinHeap
