@@ -1,6 +1,8 @@
 
 * React: input box
 
+* jQuery
+
 * CSS: Formatting
 * CSS: Display properties
 
