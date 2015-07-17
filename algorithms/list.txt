@@ -1,0 +1,33 @@
+
+Given an array of integers, return true if any 3 numbers in the array add up to 0.
+
+Given a non-ordered binary tree, print out the nodes in zig-zag order.
+
+Find the longest palindrome in a string?
+
+If a=1, b=2, c=3,....z=26. Given a string, find all possible codes that string can generate. Give a count as well as print the strings. 
+
+Implement the plusplus operator when we are getting the input as integer array = { 9,9,9,9 }.output will be {1,0,0,0,0}
+
+Given a sorted array of integers, write a function that will return the number with the biggest number of repetitions.
+
+Given a value and a binary search tree.
+Print all the paths(if there exists more than one) which sum up to that value. It can be any path in the tree. It doesn't have to be from the root.
+
+Given preorder traversal array of a BST, recontruct the BST.
+
+Given a string (1-d array) , find if there is any sub-sequence that repeats itself. 
+Here, sub-sequence can be a non-contiguous pattern, with the same relative order. 
+Eg: 
+1. abab <------yes, ab is repeated 
+2. abba <---- No, a and b follow different order 
+3. acbdaghfb <-------- yes there is a followed by b at two places 
+4. abcdacb <----- yes a followed by b twice 
+
+Given a number M (N-digit integer) and K-swap operations(a swap 
+operation can swap 2 digits), devise an algorithm to get the maximum possible integer? 
+Examples: 
+M = 132 K = 1 output = 312 
+M = 132 K = 2 output = 321 
+M = 7899 k = 2 output = 9987 
+M = 8799 and K = 2 output = 9987
