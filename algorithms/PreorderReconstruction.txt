@@ -1,0 +1,20 @@
+
+       7
+      /  \
+     5    9
+    / \  / \
+   3    8  12
+   \      /
+    4    10
+
+[ 7, 5, 3, 4, 9, 8, 12, 10 ]
+
+      7
+     / \
+    5   9
+   /   / \
+  3   8   12
+  \       /
+   4     10
+
+Just push the values in array order into a new tree
