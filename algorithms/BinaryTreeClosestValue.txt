@@ -1,0 +1,18 @@
+
+           9.1
+         /     \
+       3.8      11.6
+      /   \     /   \
+    1.2  5.4        100.1
+   /     /  \
+ 0.9   4.0   7.4
+  \
+   1.0
+
+1) Search through tree until you find the final node where the value does not have the next node
+2) If the target value is larger than the value of the last node
+   - Find the in-order successor of the current node
+   - Decide if the current node or the successor is closer to the target and return it
+3) If the target value is smaller than the value of the last node
+   - Find the in-order predecessor of the current node
+   - Decide the if current node or the precedecessor value is closer to the target and return it
