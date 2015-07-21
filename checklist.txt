@@ -48,6 +48,8 @@ Studied:
   * In-order successor
   * In-order predecessor
 
+* HTTP Cache-Control
+
 Implemented:
 * MinHeap
 * Heapsort
