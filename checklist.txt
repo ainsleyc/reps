@@ -16,6 +16,7 @@ Skipped:
 * PageRank
 * Dynamic Programming
 * Fibbonaci heap
+* Borg
 * Graph
   * Ford-Fulkerson
   * Minimum spanning tree
