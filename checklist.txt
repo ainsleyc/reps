@@ -28,6 +28,7 @@ Skipped:
     * Floyd-Warshall
 
 Studied:
+* Angular 2
 * Raft
 * etcd
 * Graphite
