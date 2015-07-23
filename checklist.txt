@@ -17,6 +17,7 @@ Skipped:
 * Dynamic Programming
 * Fibbonaci heap
 * Borg
+* Kubernetes
 * Graph
   * Ford-Fulkerson
   * Minimum spanning tree
