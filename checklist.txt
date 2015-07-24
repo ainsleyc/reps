@@ -1,7 +1,6 @@
 TBD:
 Cassandra Data Modeling
 Cassandra System
-Google File System
 Amazon Dynamo
 HDFS
 Zookeeper
@@ -11,6 +10,7 @@ InsertionSort
 RadixSort
 
 Skipped:
+* Google File System
 * Monitors
 * PageRank
 * Dynamic Programming
