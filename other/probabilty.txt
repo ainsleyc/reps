@@ -23,7 +23,22 @@ Total probability that second chip is bad: (0.8 / 1.1)(0.2) + (0.3 / 1.1)(0.7)
 Sum of binomial distribution:
 
 Where p is the probability of making a shot:
-1) sum((3! / (k! * (3-k)!)) * (p ^ 2) * ((1 - p) ^ (3-k))) where k = { 2, 3 }
-2) sum((8! / (k! * (8-k)!)) * (p ^ 2) * ((1 - p) ^ (8-k))) where k = { 5, 6, 7, 8 }
+1) sum((3! / (k! * (3-k)!)) * (p ^ k) * ((1 - p) ^ (3-k))) where k = { 2, 3 }
+2) sum((8! / (k! * (8-k)!)) * (p ^ k) * ((1 - p) ^ (8-k))) where k = { 5, 6, 7, 8 }
 
+* Other questions
 
+In a race with 30 runners where 8 trophies will be given to the top 8 runners, how many combinations?
+30! / (30 - 8)!
+
+How about if one particular horse must be in the top 3?
+(29! / (29-7)!) * 3
+
+How many ways can you arrange 16 people into 4 rows of 4 desks each?
+16!
+
+How many ways can you choose 4 groups of 4 people from 16 people, assuming the groups are distinct?
+C(16, 4) * C(12, 4) * C(8, 4) * C(4, 4)
+
+How many ways can you pair up 8 boys and 8 girls?
+8!
