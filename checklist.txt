@@ -6,7 +6,6 @@ HDFS
 Zookeeper
 Thrift
 A*
-InsertionSort
 RadixSort
 
 Skipped:
@@ -17,6 +16,7 @@ Skipped:
 * Fibbonaci heap
 * Borg
 * Kubernetes
+* InsertionSort
 * Graph
   * Ford-Fulkerson
   * Minimum spanning tree
