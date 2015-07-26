@@ -17,3 +17,8 @@ Other
 * Promises
 * Iterators
 * Generators
+  * Special type of function, declared with "*function()"
+  * Can "yield" to stop execution, sends out the yield value
+  * Executing a generator function returns an iterator
+  * Calling iterator.next() returns the yielded value
+  * Passing iterator.next(x) passes in the x value to the next yield
