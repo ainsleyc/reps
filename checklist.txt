@@ -51,8 +51,8 @@ Studied:
 * Graph
   * In-order successor
   * In-order predecessor
-
 * HTTP Cache-Control
+* es6
 
 Implemented:
 * MinHeap
