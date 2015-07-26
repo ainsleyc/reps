@@ -32,6 +32,7 @@ Studied:
 * etcd
 * Graphite
 * BigTable
+* MySQL
 * JS prototype inheritance using Object.create()
 * Dijkstra's Shortest Path
 * Quickselect
