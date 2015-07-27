@@ -53,6 +53,7 @@ Studied:
   * In-order predecessor
 * HTTP Cache-Control
 * es6
+* JS trivia
 
 Implemented:
 * MinHeap
