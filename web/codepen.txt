@@ -3,6 +3,7 @@
 
 * jQuery
 * More jQuery
+* JS tricks
 
 * CSS: Formatting
 * CSS: Display properties
