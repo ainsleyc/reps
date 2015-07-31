@@ -54,6 +54,7 @@ Studied:
 * HTTP Cache-Control
 * es6
 * JS trivia
+* board
 
 Implemented:
 * MinHeap
