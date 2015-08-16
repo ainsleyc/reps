@@ -17,3 +17,44 @@
   * Don't use large fixed width elements, use relative widths
   * Design for smallest screens, and work your way up
   * Keep text to a maximum of ~70 lines
+
+* Homepage
+  * Place actions at top/center of page
+  * Tell users what orientiation to use
+  * Keep menu lists short
+  * Always include links to return to the homepage (ex logo link)
+  * Avoid opening new browser windows
+
+* Responsive Design Patterns
+  * Fluid Grid Reflow
+    * Stack columns vertically as width decreases
+    * Each content column reflows
+  * Column Drop
+    * For full width multi-column layouts, columns become stacked vertically as width decreases
+  * Layout Shifter
+    * Custom layout modification at each breakpoint
+    * More complex, requires changes within elements not just layout
+  * Tiny Tweaks
+    * For text-heavy, single column  pages, just tweaking fint suze and such may be enough.
+  * Off Canvas
+    * Less important columns are shifted off screen, swipeable left and right.
+
+* Mobile Web Navigation
+  * App Bar
+    * Homepage logo
+    * Menu button on top left or top right of screen
+    * Key actions should be in the app bar
+  * Tab Bar
+    * Only if site has no more than 5 sections
+    * Below or above main content
+    * Make it clear which section is currently selected 
+  * Navigation Drawer
+    * Off canvas, for if there are many sections
+    * Should always be easily accessable
+    * Don't hide key actions in the drawer
+  * Bottom Bar
+    * If app bar cannot hold all actions
+    * 5 items at most
+    * Conflicts with Tab Bar
+
+
