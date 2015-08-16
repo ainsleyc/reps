@@ -1,0 +1,19 @@
+
+### Responsive Web Design
+
+* Viewport
+  * Instructs browser to match the screen's width with device-independent pixels
+```
+<meta name="viewport" content="width=device-width, initial-scale=1">
+```
+
+* Media queries
+  * Allows application of different styles based on device characteristics
+  * Apply different styles at different widths
+
+* Content Width
+  * Users are used to scrolling up and down, but not horizontally
+  * Don't rely os specific viewport width
+  * Don't use large fixed width elements, use relative widths
+  * Design for smallest screens, and work your way up
+  * Keep text to a maximum of ~70 lines
