@@ -57,4 +57,10 @@
     * 5 items at most
     * Conflicts with Tab Bar
 
+* Search
+  * Make sure search is visible
+  * Ensure search results are relevent
+  * Implment filters to narrow results
+  * Guide users to better search results
+
 
