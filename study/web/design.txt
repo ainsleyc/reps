@@ -63,4 +63,14 @@
   * Implment filters to narrow results
   * Guide users to better search results
 
-
+* Form Entry
+  * Use HTML5 input types
+  * Take advantage of autofill
+  * Progress indicator for multi-step forms
+  * Use a calendar for dates
+  * Use labels, which allow users to touch them to access the input field
+  * Use placeholders to demonstrate expected input
+  * Use browser autocomplete values
+  * Pattern attribute on fields allows regex validation
+  * Required attribute must be filled before form can be submitted
+  * Use real-time validation of fields to let user know when inputs are invalid before submit
