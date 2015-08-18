@@ -74,3 +74,23 @@
   * Pattern attribute on fields allows regex validation
   * Required attribute must be filled before form can be submitted
   * Use real-time validation of fields to let user know when inputs are invalid before submit
+
+* Critical Rendering Path
+  * Steps
+    * In web insepector, "Parse HTML" is the time it takes to convert html text into DOM nodes
+    * "Recalculate Style" under "Parse HTML" is the time used to parse css into CSSOM tree
+    * "Layout": The DOM and CSSOM tree are combined into a "Render Tree" containing both information
+    * "Layout": From the combined tree, the geometry of the page elements is calcuated
+    * Paint the calculated pixels on the screen
+  * Blocking CSS optimization
+    * Both HTML and CSS are render blocking resources
+    * Rendering without CSS if often called "Flash of Unstyled Content" (FOUC)
+    * Use media queries, which only apply a matching subset of stylesheet while rendering
+  * Javascript optimization
+    * Inline are run exactly where they are placed in the page, so block rendering
+    * Javascript by default blocks rendering while it fetches and parses the file
+    * Adding "async" to the script tag tells the browser it does not need to block
+  * Navigation Timing
+    
+
+
