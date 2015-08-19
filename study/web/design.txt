@@ -91,6 +91,8 @@
     * Javascript by default blocks rendering while it fetches and parses the file
     * Adding "async" to the script tag tells the browser it does not need to block
   * Navigation Timing
-    
+    * Browser provides an api to extract various rending timings for analytics
+    * Ex. domInteractive, domContentLoaded, domComplete
+    * These variables can be accessed through window.performance.timing 
 
 
