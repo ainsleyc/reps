@@ -100,3 +100,13 @@
   * Minify text files
   * GZIP on text, for assets that are already optimized (ex images) there is little benefit
   * Replaces images with CSS / web fonts
+  * Image formats:
+    * Vector: SVG, good for images that consist of geometric shapes, good at high resolutions
+    * Raster: PNG/JPEG, better for things like photos but look less good zoomed in
+  * Screen pixel density
+    * A single css pixel may contain many device pixels
+    * High DPI screens produce nice results, but image assets require more resolution to take advantage
+    * Vector images render sharply in any resolution
+    * Raster images must be larger to contain the necessary data
+    * Prefer vactor images when possible 
+  * Images are great candidates for lossy compressions
