@@ -95,4 +95,8 @@
     * Ex. domInteractive, domContentLoaded, domComplete
     * These variables can be accessed through window.performance.timing 
 
-
+* Optimizing Content Efficiency
+  * Eliminate unneccesarry resources
+  * Minify text files
+  * GZIP on text, for assets that are already optimized (ex images) there is little benefit
+  * Replaces images with CSS / web fonts
