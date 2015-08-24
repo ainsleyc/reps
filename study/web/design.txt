@@ -110,3 +110,7 @@
     * Raster images must be larger to contain the necessary data
     * Prefer vactor images when possible 
   * Images are great candidates for lossy compressions
+  * Image formats
+    * GIF: Useful for animations
+    * JPEG: More compact
+    * PNG: Highest resolution
