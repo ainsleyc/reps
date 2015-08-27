@@ -1,0 +1,12 @@
+
+OOCSS
+* Seperate styling of text/lists/etc and apply everywhere for consistent styling
+* Seperate structure (widths, layout) from skin (styling)
+* Use classes for styling, so that they will be reusable
+* Use parent / child classes
+* Make parent / child elements independent, parent should not require child for correct styling
+* For reusable classes don't use fixed heights and widths for reusability
+* Extend existing class styles by using an additional .class
+* Look for places to abstract away classes of styling so that they can be reused
+
+
