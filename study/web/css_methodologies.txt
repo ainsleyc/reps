@@ -10,4 +10,7 @@ OOCSS
 * Look for places to abstract away classes of styling so that they can be reused
 
 BEM
+* Block: Standalone, meaningful entity
+* Element: Part of block, no standalone meaning
+* Modifiers: Flags on blocks or elements
 
