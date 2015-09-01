@@ -16,5 +16,30 @@ BEM
 * Use "--" syntax to extend existing style classes
 
 SMACSS
+* CSS categories
+  * Base
+    * Typically element selectors, the defaults for that element
+    * No class or id selectors
+  * Layout
+    * Divides the page into sections
+    * Typically ID selectors, but can use class selectors for reusability
+  * Modules
+    * The reusable, modular parts of the design
+    * Sit inside layouts or other modules
+    * Use class names
+    * Subclass by using <class>-<subclass>, and apply both to the desired element
+    * Are applied to an element at render time and never changed again
+  * State
+    * Describe how modules or layouts look in particular states
+    * Indicate a Javascript dependency, changes during runtime
+  * Theme
+    * Alternative description of how modules or layouts can look
+    * Defines look and feel so that the theme can be easily changed
+    * Place in a seperate theme file
+* Naming rules
+  * Modules contain a class .module
+  * Layout classes have the prefix "l-"
+  * State classes have the prefix "is-"
+
 
 
