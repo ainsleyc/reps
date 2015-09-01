@@ -15,3 +15,6 @@ BEM
 * Modifiers: Flags on blocks or elements
 * Use "--" syntax to extend existing style classes
 
+SMACSS
+
+
