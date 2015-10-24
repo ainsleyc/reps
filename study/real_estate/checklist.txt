@@ -1,0 +1,12 @@
+
+* Title insurance, small % one time payment
+* Offer contract
+  * Contingencies
+    * Inspection
+    * Financing
+  * Earlier closing dates are more appealing
+  * Possible counter-offer
+* Escrow Account
+  * Trusted third party that manages the traded assets
+  * Also, used by lender to collect taxes/insurance fees from home buyer
+   
