@@ -4,6 +4,12 @@ describe('Classes', () => {
     constructor() {
       this.baseVar = 1;
     }
+    testFunc() {
+      return 4;
+    }
+    static testStatic() {
+      return 5;
+    }
   }
 
   // Need to manually call super()?
@@ -24,6 +30,11 @@ describe('Classes', () => {
   it('should correctly instantiate new instances', () => {
     var base = new Base();
     expect(base.baseVar).to.equal(1);
+    expect(base.testFunc()).to.equal(4);
+  });
+
+  it('should allow static functions', () => {
+    expect(Base.testStatic()).to.equal(5);
   });
 
   it('should correctly overwrite base variables', () => {
