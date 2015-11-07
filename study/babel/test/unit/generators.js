@@ -31,4 +31,35 @@ describe('Generators', () => {
       count++;
     }
   });
+
+  it('should allow try/catch error handling', (done) => {
+    function *gen() {
+      throw new Error('BLAH');
+    }
+    var it = gen();
+    try {
+      it.next();
+    }
+    catch (err) {
+      done();
+    }
+  });
+
+  it('should allow generator delegation', () => {
+    function *end() {
+      yield 3;
+      yield 4;
+    }
+    function *start() {
+      yield 1;
+      yield 2;
+      yield *end();
+      yield 5;
+    }
+    var count = 1;
+    for (var next of start()) {
+      expect(next).to.equal(count);
+      count++;
+    }
+  });
 });
