@@ -12,3 +12,11 @@ Solution:
 * Any object that implements the then() function can be wrapped into a 
   normalized promise
 
+Limitations:
+
+* Errors in the final success in a promise chain is not included in the chained
+  error handling
+* Promises cannot return multiple values (returning multi-valued object is a bit
+  of a hack)
+* Must create a new promise each time a chain of events occurs, inefficent for 
+  reactive events like mouse clicks
