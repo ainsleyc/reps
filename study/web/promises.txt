@@ -1,0 +1,14 @@
+
+Problem:
+
+* Callbacks create an inversion of control problem
+* You cannot be sure that the callback will be called correctly, and only once
+
+Solution:
+
+* With promises you still pass callbacks, but where you pass callbacks is shifted
+* Promises will only return a single success or failure
+* Completed promises are immutable
+* Any object that implements the then() function can be wrapped into a 
+  normalized promise
+
