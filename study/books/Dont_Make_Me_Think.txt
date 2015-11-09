@@ -1,0 +1,6 @@
+
+* Don't make me think
+  * Don't use obscure / technical names
+  * Things should be obviously clickable
+  * Search should not require sub-filtering / pulldowns
+  
