@@ -18,5 +18,10 @@
   * Break up pages into clearly defined areas
   * Make it obvious what is clickable
   * Remove unneeded noise from the page
-  
+
+* Mindless choices
+  * Number of clicks matter less than how much thought each click takes
+  * Should provide queues that give users continued confidence that they are on the right track
+
+*  
   
