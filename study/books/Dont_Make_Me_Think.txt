@@ -3,4 +3,20 @@
   * Don't use obscure / technical names
   * Things should be obviously clickable
   * Search should not require sub-filtering / pulldowns
+
+* How we really use the web
+  * We scan pages, not read them
+  * We don't choose the best option, we choose the first reasonable option
+  * We don't figure out how things work, we muddle through
+
+* Billboard design 101
+  * Create a clear visual heiarchy
+    * The more important something is, the more prominent it is
+    * Things that are related logically are also related visually
+    * Things are nested visually to show whats part of what
+  * Conventions are your friend
+  * Break up pages into clearly defined areas
+  * Make it obvious what is clickable
+  * Remove unneeded noise from the page
+  
   
