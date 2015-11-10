@@ -23,5 +23,7 @@
   * Number of clicks matter less than how much thought each click takes
   * Should provide queues that give users continued confidence that they are on the right track
 
-*  
+* Omit needless words
+  * Remove happy talk
+  * Things should be self explanitory, remove instructions  
   
