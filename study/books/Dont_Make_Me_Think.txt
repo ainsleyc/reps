@@ -27,3 +27,16 @@
   * Remove happy talk
   * Things should be self explanitory, remove instructions  
   
+Street Signs and Breadcrumbs
+* Web navigation 101
+  * You are usually trying to find something
+  * You decide whether to ask first of browse first
+  * Browsers willuse the sites search hiearchy to find their way around
+  * If you can't find what you are lookign for, you will leave
+* Difficulties of browsing
+  * No sense of scale
+  * No sense of direction
+  * No sense of location
+  * Home pages are important because they are fixed
+  * Back button comprises 30~40% of web clicks
+  * Figuring out where you are is a more pervasive problem in the web
