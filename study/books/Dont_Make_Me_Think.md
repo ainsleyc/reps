@@ -40,3 +40,10 @@ Street Signs and Breadcrumbs
   * Home pages are important because they are fixed
   * Back button comprises 30~40% of web clicks
   * Figuring out where you are is a more pervasive problem in the web
+* Overlooked purposes of navigation
+  * It gives us something to anchor us while navigating
+  * It tells us what's here
+  * It tells us how to use the site
+  * It gives us confidence in the people that built it
+* Web navigation conventions
+  * 
