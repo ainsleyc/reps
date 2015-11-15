@@ -46,4 +46,38 @@ Street Signs and Breadcrumbs
   * It tells us how to use the site
   * It gives us confidence in the people that built it
 * Web navigation conventions
-  * 
+  * Persistent Navigation
+    * Sections
+      * Links to top level hiearchy of the site
+      * Often will also include second-level sub-menus
+    * Site ID
+      * Typically upper left hand corner
+      * Distinctive typeface and graphic
+    * Utilities
+      * Shopping cart, help, etc
+      * Things that don't fit into the site hiearchy
+      * Should be smaller than the hiearchy
+    * A way home
+      * Commonly also the site ID
+    * Search
+      * A simple, search-everythign box is best
+      * Be careful of adding too many search options that confuse the user
+    * Occational Exceptions
+      * Homepage
+      * Forms
+  * Give proper attention to the tertiary and lower navigation hiearchies
+  * Page names
+    * Each page needs to have a prominent name
+    * The name should match what the user clicked to get there
+    * The name should frame the content that is unique to the page
+  * There should always be an indicator of where you are in the page hiearchy
+    * They should not be so subtle as to lose their value
+  * Breadcrumbs
+    * Should only be used as secondary navigation
+    * Use small type
+    * Boldface the last item
+  * Tabs are good
+    * They are self-evident
+    * They are hard to miss
+    * They can be visually interesting
+    
