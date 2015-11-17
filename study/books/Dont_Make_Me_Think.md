@@ -81,4 +81,25 @@ Street Signs and Breadcrumbs
     * They are hard to miss
     * They can be visually interesting
   * Try trunk test
-    
+* Designing the Homepage
+  * Needs to include
+    * Site identity and mission
+    * Site heiarchy
+    * Search
+    * Teases
+    * Timely content
+    * Deals
+    * Shortcuts
+    * Registration
+  * Conveying the big picture
+    * What is this?
+    * What can I do here?
+    * What do they so here?
+    * Why should I be here and not somewhere else?
+  * How to get the message across
+    * tagline
+    * the welcome blurb
+    * use as much space as necessary
+    * ... but don't use any more space than necessary
+    * Don't use a mission statement as a welcome blurb
+    * It's one of the mose important things to test
