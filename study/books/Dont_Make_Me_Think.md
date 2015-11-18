@@ -103,3 +103,8 @@ Street Signs and Breadcrumbs
     * ... but don't use any more space than necessary
     * Don't use a mission statement as a welcome blurb
     * It's one of the mose important things to test
+  * The trouble with pulldowns
+    * You have to seek them out
+    * They are had to scan
+    * They are twitchy
+    * Best for lists of known values, like countries
