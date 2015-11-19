@@ -108,3 +108,5 @@ Street Signs and Breadcrumbs
     * They are had to scan
     * They are twitchy
     * Best for lists of known values, like countries
+* Design Debates
+  * Designers/developers/business folks have different priorities for web design
