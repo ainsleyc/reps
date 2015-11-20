@@ -110,3 +110,5 @@ Street Signs and Breadcrumbs
     * Best for lists of known values, like countries
 * Design Debates
   * Designers/developers/business folks have different priorities for web design
+  * The average user is a myth: don't try to figure out what the "average" user wants
+  * You need to watch users using your site
