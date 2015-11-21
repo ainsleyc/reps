@@ -112,3 +112,11 @@ Street Signs and Breadcrumbs
   * Designers/developers/business folks have different priorities for web design
   * The average user is a myth: don't try to figure out what the "average" user wants
   * You need to watch users using your site
+* Usability Testing
+  * Focus groups are not usability tests
+  * After a few weeks the devs dont have fresh eyes. You need outside testers
+  * Even testing one user is much better than nothing
+  * Testing one user early is much better than testing many later
+  * Recruiting representative users is overrated
+  * Trying to use test between different UI is generally too costly
+  * Test iteratively
