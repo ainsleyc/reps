@@ -119,4 +119,6 @@ Street Signs and Breadcrumbs
   * Testing one user early is much better than testing many later
   * Recruiting representative users is overrated
   * Trying to use test between different UI is generally too costly
-  * Test iteratively
+  * Test iteratively, 3~4 people per round is enough
+  * Trying testing a similar site if available first
+
