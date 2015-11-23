@@ -121,4 +121,5 @@ Street Signs and Breadcrumbs
   * Trying to use test between different UI is generally too costly
   * Test iteratively, 3~4 people per round is enough
   * Trying testing a similar site if available first
+  * Review the results right away and decide a course of action
 
