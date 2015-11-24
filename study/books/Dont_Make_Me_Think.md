@@ -122,4 +122,8 @@ Street Signs and Breadcrumbs
   * Test iteratively, 3~4 people per round is enough
   * Trying testing a similar site if available first
   * Review the results right away and decide a course of action
+  * Typical Problems
+    * Users are unclear on the concept
+    * The words they are looking for aren't there
+    * There's too much going on
 
