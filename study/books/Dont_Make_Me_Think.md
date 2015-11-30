@@ -133,4 +133,20 @@ Street Signs and Breadcrumbs
     * Grab the low hanging fruit
     * Be careful with changes, consider what other parts of the site will be affected
   * One morning a month is enough usability testing
-
+* User Goodwill
+  * Losing goodwill
+    * Hiding information user wants (ex. contact information)
+    * Punishing users for not doing it your way
+    * Asking for information you don't need
+    * Shocking and jiving the user
+    * Putting sizzle in the way of usability
+    * Having a site that looks amaturish
+  * Increasing goodwill
+    * Make the main things people want to do obvious and easy
+    * Tell the user what the want to know
+    * Save user steps when you can
+    * Put effort into helping the user
+    * Answer the questions users are likely to have
+    * Provide additional features like printer friendly pages
+    * Make it easy to recover from errors
+    * Apologize when you can fulfill user's needs
