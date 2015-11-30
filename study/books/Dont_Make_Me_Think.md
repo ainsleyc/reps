@@ -126,4 +126,11 @@ Street Signs and Breadcrumbs
     * Users are unclear on the concept
     * The words they are looking for aren't there
     * There's too much going on
+  * Triage guidelines
+    * Ignore problems that where all testers are able to right themselves quickly
+    * Resist the temptation to add things like explanations
+    * Take new feature requests with a grain of salt
+    * Grab the low hanging fruit
+    * Be careful with changes, consider what other parts of the site will be affected
+  * One morning a month is enough usability testing
 
