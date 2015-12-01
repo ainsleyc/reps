@@ -149,4 +149,4 @@ Street Signs and Breadcrumbs
     * Answer the questions users are likely to have
     * Provide additional features like printer friendly pages
     * Make it easy to recover from errors
-    * Apologize when you can fulfill user's needs
+    * Apologize when you can't fulfill user's needs
