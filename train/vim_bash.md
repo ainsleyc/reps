@@ -13,4 +13,11 @@
     * Blah
 
 * Bash:
-  * Blah
+  * Learning
+    * Caps + Command + h/l = move by word
+  * Learned 
+
+* Tmux:
+  * Learning:
+    * Prefix = Control + Space * 
+    * Copy mode = c-space-space
