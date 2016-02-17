@@ -1,4 +1,8 @@
 
+* 2016/02/17
+  * Added shortcuts for paste mode on/off
+  * Rebuild-ui causing build race condition?
+
 * 2016/02/16
   * Set up ssh aliases to directly enter tmux sessions
   * Added bashrc aliases for bashrc commands
