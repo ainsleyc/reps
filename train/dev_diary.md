@@ -1,4 +1,8 @@
 
+* 2016/02/18
+  * Visual line mode with leader-leader
+  * Removed duplicate trim whitespace command
+
 * 2016/02/17
   * Added shortcuts for paste mode on/off
   * Rebuild-ui causing build race condition?
