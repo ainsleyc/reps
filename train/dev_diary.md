@@ -1,6 +1,6 @@
 
 * 2016/02/19
-  * Better html color scheme in vim 
+  * Forked vim solarized
 
 * 2016/02/18
   * Better html color scheme in vim (failed)
