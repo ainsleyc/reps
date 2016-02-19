@@ -1,4 +1,11 @@
 
+* 2016/02/19
+  * Better html color scheme in vim 
+
+* 2016/02/18
+  * Better html color scheme in vim (failed)
+  * Enable matchit in vim for html tags
+
 * 2016/02/18
   * Visual line mode with leader-leader
   * Removed duplicate trim whitespace command
