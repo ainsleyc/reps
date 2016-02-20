@@ -1,4 +1,7 @@
 
+* 2016/02/20
+  * Vim auto-highlight matching html tag
+
 * 2016/02/19
   * Forked vim solarized
 
