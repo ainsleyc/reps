@@ -1,4 +1,7 @@
 
+* 2016/02/21
+  * Vim between tags: cit and dit
+
 * 2016/02/20
   * Vim auto-highlight matching html tag
 
