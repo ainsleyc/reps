@@ -1,4 +1,8 @@
 
+* 2016/02/22
+  * Issue with using space as the leader key? For now just continue typing
+    and see if it continues to be an issue
+
 * 2016/02/21
   * Vim between tags: cit and dit
 
