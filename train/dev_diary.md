@@ -1,4 +1,7 @@
 
+* 2016/02/23
+  * Changed leader to ,
+
 * 2016/02/22
   * Issue with using space as the leader key? For now just continue typing
     and see if it continues to be an issue
