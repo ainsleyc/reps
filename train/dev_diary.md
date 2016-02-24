@@ -1,4 +1,7 @@
 
+* 2016/02/24
+  * Rethink git merging strategy
+
 * 2016/02/23
   * Changed leader to ,
 
