@@ -1,5 +1,8 @@
 
 * 2016/02/24
+  * Dremel codelab
+
+* 2016/02/24
   * Rethink git merging strategy
 
 * 2016/02/23
