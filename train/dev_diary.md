@@ -1,4 +1,7 @@
 
+* 2016/02/29
+  * Improved bash linking 
+
 * 2016/02/26
   * Mac Road Warrior 2
 
