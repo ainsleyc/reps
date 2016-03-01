@@ -1,4 +1,7 @@
 
+* 2016/03/01
+  * Dremel training pt2
+
 * 2016/02/29
   * Improved bash linking 
 
