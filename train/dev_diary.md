@@ -1,5 +1,8 @@
 
 * 2016/03/06
+  * VIM commands refresh 2
+
+* 2016/03/06
   * VIM commands refresh
 
 * 2016/03/05
