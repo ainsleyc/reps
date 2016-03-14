@@ -1,23 +1,26 @@
 
-* 2016/03/06
+* 2016/03/14
+  * Go shakespeare 6 
+
+* 2016/03/13
   * Go shakespeare 5 
 
-* 2016/03/06
+* 2016/03/12
   * Go shakespeare 4 
 
-* 2016/03/06
+* 2016/03/11
   * Go pb 1
 
-* 2016/03/06
+* 2016/03/10
   * Go shakespeare 3
 
-* 2016/03/06
+* 2016/03/09
   * Go shakespeare 2
 
-* 2016/03/06
+* 2016/03/08
   * Go shakespeare 1
 
-* 2016/03/06
+* 2016/03/07
   * VIM commands refresh 2
 
 * 2016/03/06
