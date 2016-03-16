@@ -1,4 +1,7 @@
 
+* 2016/03/16
+  * Go shakespeare 8 
+
 * 2016/03/15
   * Go shakespeare 7 
 
