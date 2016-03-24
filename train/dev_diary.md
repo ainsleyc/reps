@@ -1,4 +1,7 @@
 
+* 2016/03/23
+  * CSS Flexbox 
+
 * 2016/03/22
   * Go shakespeare 12
 
