@@ -1,4 +1,7 @@
 
+* 2016/03/24
+  * CSS specificity 
+
 * 2016/03/23
   * CSS Flexbox 
 
