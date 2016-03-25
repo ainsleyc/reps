@@ -1,4 +1,7 @@
 
+* 2016/03/25
+  * Go shakespeare 13 
+
 * 2016/03/24
   * CSS specificity 
 
