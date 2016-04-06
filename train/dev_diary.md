@@ -1,4 +1,7 @@
 
+* 2016/04/06
+  * Responsive design
+
 * 2016/04/05
   * Go shakespeare 20  
 
