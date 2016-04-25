@@ -1,4 +1,7 @@
 
+* 2016/04/24
+  * practical vim 
+
 * 2016/04/23
   * cadvisor 
 
