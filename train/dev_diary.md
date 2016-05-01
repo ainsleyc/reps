@@ -1,3 +1,8 @@
+
+* 2016/04/29
+  * js symbols 
+  * closures 
+
 * 2016/04/29
   * vim-go
 
