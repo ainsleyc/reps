@@ -1,4 +1,7 @@
 
+* 2016/05/02
+  * angular components
+
 * 2016/04/29
   * js symbols 
   * closures 
