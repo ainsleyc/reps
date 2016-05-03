@@ -1,4 +1,7 @@
 
+* 2016/05/03
+  * practical vim 
+
 * 2016/05/02
   * angular components
 
