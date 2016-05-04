@@ -1,4 +1,7 @@
 
+* 2016/05/04
+  * vim text objects
+
 * 2016/05/03
   * practical vim 
 
