@@ -1,4 +1,7 @@
 
+* 2018/05/11
+  * vim paragraph text objects
+
 * 2018/05/10
   * cadvisor
 
