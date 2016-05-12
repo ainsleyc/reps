@@ -1,4 +1,7 @@
 
+* 2018/05/12
+  * Practical vim index
+
 * 2018/05/11
   * vim paragraph text objects
 
