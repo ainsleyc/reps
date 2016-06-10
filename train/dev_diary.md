@@ -1,6 +1,6 @@
 
 * 2016/06/10
-  * App Engine 
+  * Integration testing
 
 * 2016/06/09
   * angular material dialog extern
