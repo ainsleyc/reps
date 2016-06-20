@@ -1,4 +1,7 @@
 
+* 2016/06/19
+  * VIM registers 
+
 * 2016/06/16
   * ImmutableJs 
 
