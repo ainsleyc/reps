@@ -1,4 +1,7 @@
 
+* 2016/07/02
+  * VIM patterns 
+
 * 2016/07/01
   * VIM macros 
 
