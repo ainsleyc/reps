@@ -1,4 +1,7 @@
 
+* 2016/07/03
+  * VIM search 
+
 * 2016/07/02
   * VIM patterns 
 
