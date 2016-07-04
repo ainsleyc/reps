@@ -1,5 +1,8 @@
 
 * 2016/07/03
+  * VIM visual mode 
+
+* 2016/07/03
   * VIM search 
 
 * 2016/07/02
